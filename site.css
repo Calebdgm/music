@@ -1,0 +1,50 @@
+body {
+    background-image: url('https://static.wixstatic.com/media/fcce0b3b6f2f4240b2d9de05e9b66ddb.jpg/v1/fill/w_1178,h_478,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/fcce0b3b6f2f4240b2d9de05e9b66ddb.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #444;
+    line-height: 1.4;
+    max-width: 650px;
+    margin: 40px auto;
+}
+
+main {
+    max-width: 650px;
+    background: #fee6aa;
+    border-radius: 1em;
+    margin: auto;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+  background-color: transparent;
+  color: #000;
+  height: 50px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  display: block;
+  padding: 0 10px;
+  line-height: 50px;
+  text-decoration: none;
+  color: #000;
+}
